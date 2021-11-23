@@ -1,0 +1,5 @@
+save_dir: /tmp/dbfiles/main/
+download_url_path: https://repo1.maven.org/maven2/cn/featherfly/common/common-core/1.8.30/
+download_files: 
+  - common-core-1.8.30.jar
+  - common-core-1.8.30.pom
