@@ -12,5 +12,11 @@ pipreqs --force .
 ```
 Install all packages listed in the file
 ```sh
+pip install -r requirements.txt
+```
 
+## Generate executable file
+
+```sh
+pyinstaller -F -n dbfiles_v0.0.1.exe --distpath . main.py
 ```
