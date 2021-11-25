@@ -131,6 +131,6 @@ dmypy.json
 # PyCharm
 .idea/
 
-# Executable file
-*.exe
-*.zip
+# Release dir
+release/
+

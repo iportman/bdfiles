@@ -46,7 +46,11 @@ def get_conf(is_test=False):
     if is_test:
         conf_file_name = os.sep + '..' + conf_file_name
 
-    conf_file = open(os.getcwd() + conf_file_name, 'r')
+    conf_file_path = os.getcwd() + conf_file_name
+    if not os.path.exists(conf_file_path):
+        raise Exception('config file does not exists.')
+
+    conf_file = open(conf_file_path, 'r')
     conf_data = conf_file.read()
     conf_file.close()
 

@@ -15,8 +15,18 @@ Install all packages listed in the file
 pip install -r requirements.txt
 ```
 
-## Generate executable file
+## Generate Windows executable file
 
 ```sh
 pyinstaller -F -n dbfiles_v0.0.1.exe --distpath . main.py
 ```
+
+## Config File
+
+The configuration file conf.yml must be in the same directory as the running file (.exe or main.py)
+
+configuration as follows
+
+- save_dir: The directory that you want to save
+- download_url_path: The path prefix of the download URL, except for the last file name
+- download_files: The last file name of the url, supports multiple file names

@@ -38,3 +38,4 @@ class TestMain(unittest.TestCase):
     def tearDown(self):
         shutil.rmtree(self.save_dir)
         print('Dir has been deleted. ' + self.save_dir)
+        print('\nDone.')
