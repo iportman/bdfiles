@@ -16,7 +16,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-# 依赖列表写入 requirements.txt 
+## 依赖列表写入 requirements.txt 
 ```sh
 pipreqs --force .
 ```
